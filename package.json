@@ -1,0 +1,31 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Profile facebook NodeJS sy mongoDB asina front React",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "mongodb"
+  ],
+  "author": "Laza,Lee,Bruno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-generator": "^4.16.1",
+    "express-mongo-db": "^2.0.4",
+    "mocha": "^6.1.4",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.8",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mochawesome": "^4.0.0"
+  }
+}
