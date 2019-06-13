@@ -21,14 +21,14 @@ mongoose.Promise = global.Promise;
 mongoose.connect(config.url, {
     useNewUrlParser: true
 }).then(() => {
-    console.log("Successfully connected to the database");  
+    console.log("Successfully connected to the database");
 }).catch(err => {
     console.log('Could not connect to the database. Exiting now...', err);
     process.exit();
 });
 
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to Profil app"});
+    res.json({ "message": "Welcome to Profil app" });
 });
 
 app.listen(8080, () => {
