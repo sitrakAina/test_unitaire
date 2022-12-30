@@ -18,7 +18,7 @@
     "express": "^4.16.4",
     "express-generator": "^4.16.1",
     "express-mongo-db": "^2.0.4",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mongodb": "^3.2.4",
     "mongoose": "^5.5.8",
     "supertest": "^4.0.2"
